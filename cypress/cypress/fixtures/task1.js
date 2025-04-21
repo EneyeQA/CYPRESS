@@ -1,0 +1,33 @@
+export const elements = {
+    "createAccount": '#id6pDPY7X5',
+    "firstnameField": '#firstname',
+    "firstname": 'Abdulwahab',
+    "lastnameField" : '#lastname',
+    "lastname" : 'Suleiman',
+    "newslettercheckbox" : '#is_subscribed',
+    "dobField" : '#is_subscribed',
+    "dob" : '02/03/2000',
+    "allowremoteShopping" : '#assistance_allowed_checkbox',
+    "emailField":'#email_address',
+    "email":'eneye38@gmail.com',
+    "passwordField":'#password',
+    "password":'ABDULWAHAB@1',
+    "confirmPasswordField" : '#password-confirmation',
+    "confirmPassword":'ABDULWAHAB@1',
+    "createAccountButton" : '#form-validate > .actions-toolbar > div.primary > #send2',
+    "verify": '#ppIS7 > :nth-child(1) > div',
+    "signin" : '.panel > .header > .link > .social-login-btn',
+    "signinemialField" : '#social_login_email',
+    "signinemail":'eneye38@gmail.com',
+    "signinpasswordField":'#social-form-login > .fieldset > .password',
+    "signinpassword":'ABDULWAHAB@1',
+    "signinbutton": '#bnt-social-login-authentication',
+    "shopNowbutton": '.home-main > .content > .action',
+    "clickaddtocart":'#product-item-info_39 > .photo > .product-image-container > .product-image-wrapper > .product-image-photo',
+    "addtocart": '#product-addtocart-button',
+    "clickaddtocart1": '#product-item-info_44 > .photo > .product-image-container > .product-image-wrapper > .product-image-photo',
+    "addtocart1":'#product-addtocart-button',
+    "home": '.home > a'
+}
+
+
