@@ -1,7 +1,7 @@
 import {elements} from '../fixtures/task1'
 describe ('POMTASK',()=>{
   beforeEach(()=>{
-    cy.visit('/')
+    cy.visit('https://osc-ultimate-demo.mageplaza.com/')
   })
 
   it ('Create Account', ()=>{
@@ -27,9 +27,12 @@ describe ('POMTASK',()=>{
     cy.get(elements.shopNowbutton).click()
     cy.get(elements.clickaddtocart).click()
     cy.get(elements.addtocart).click()
-    cy.get(elements.home).click()
-    cy.get(elements.clickaddtocart1).click()
-    cy.get(elements.addtocart1).click()
+    cy.get(elements.city).type(elements.cityName)
+    cy.get(elements.phonenumberField).type(elements.phonenumber)
+    cy.get(elements.checkin).click()
+    cy.get(elements.agreement).click()
+    cy.get(elements.checkout).click()
   })
+   
 })
  
